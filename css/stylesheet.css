@@ -11,12 +11,16 @@ header{
 }
 
 
-/*tricky fix to prevent nav from disspearing*/
+/*tricky fix to prevent nav from disspearing
+ 
 header::after{
 content: '';
 display: table;
 clear: both;
 }
+ */
+ 
+
 
 nav{
 
@@ -70,8 +74,8 @@ nav ul > li > a:hover{
     color: black;
 }
 
-
-nav ul > li > a::before{ /*in link, before text*/
+/*
+nav ul > li > a::before{ 
     content: '';
     display: block;
     height: 5px;
@@ -86,9 +90,9 @@ nav ul > li > a::before{ /*in link, before text*/
 
 nav ul > li > a:hover::before{
     width: 100%;
-
+    
 }
-
+*/
 
 /*footer*/
 
@@ -99,8 +103,15 @@ html, body{
 main{
     min-height: 100%;
 
-    overflow: auto;
     padding-bottom: 40px; /*footer size*/
+}
+
+main img{
+
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    
 }
 
 footer{
