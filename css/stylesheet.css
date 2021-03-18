@@ -1,8 +1,9 @@
 :root {
     --background: #222;
-    --backgroundLight: #555;
+    --backgroundLight: #333;
     --color: purple;
     --colorWhite: #ddd;
+    --colorGray: #aaa;
   }
 
 * {
@@ -13,7 +14,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: var(--background);
+    background: var(--backgroundLight);
 }
 
 header {
@@ -90,9 +91,59 @@ main img {
 }
 
 footer {
-    background: wheat;
+    background: var(--background);
     position: relative;
     height: 40px;
     margin-top: -40px;
     clear: both;
+}
+
+#mainImage{
+    background: var(--background);
+}
+
+#mainImage ul{
+    list-style: none; /*no dots*/
+    text-align: center;
+
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainImage ul li{
+    display: inline-block;
+    padding: 25px 8em 25px 8em;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--colorWhite);
+    text-align: center;
+
+}
+
+.textBox{
+    display: inline-block;
+    padding: 2em 4em 2em 4em;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--colorWhite);
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textBox h1{
+    font-size: 1em;
+}
+
+.textBox h2{
+    font-size: 0.7em;
+    color: var(--colorGray);
 }
