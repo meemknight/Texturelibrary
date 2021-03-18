@@ -1,125 +1,98 @@
-body{
+:root {
+    --background: #222;
+    --backgroundLight: #555;
+    --color: purple;
+    --colorWhite: #ddd;
+  }
+
+* {
     margin: 0;
     padding: 0;
-    background: gray;
 }
 
-
-header{
-    background: teal;
-    height: 80px;
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--background);
 }
 
-
-/*tricky fix to prevent nav from disspearing
- 
-header::after{
-content: '';
-display: table;
-clear: both;
+header {
+    background: var(--background);
+    height: 50px;
 }
- */
- 
 
-
-nav{
-
+nav {
     width: 100%;
     margin: 0 auto;
-    float:right;
+    float: right;
+}
+
+.logo {
+    float: left;
+    padding: 0.7em 3.2em;
+    height: 30px;
     
-   
 }
 
-.logo{
+.title {
     float: left;
-    padding: 10px 10px;
-    height: 80px;
-}
-
-.title{
-    float: left;
-    padding: 10px 10px;
-    height: 80px;
+	margin-top: 10px;
+    color: var(--colorWhite);
 
 }
 
-nav ul{
-    margin: 0;
-    padding: 0;
-
+nav ul {
     list-style: none; /*no dots*/
     text-align: right;
 }
 
-nav li{
-    /*set items next to each other*/
+nav ul li {
     display: inline-block;
-    margin-right: 5%; /*change to right if change alignment*/
-    text-align: right;
-
-    padding-top: 30px;
-
-    position: relative;
-}
-
-nav ul > li > a{
-    color: #333;
-    text-decoration: none; /*no ugly underline*/
-    text-transform: uppercase; /*so it looks nice */
+    padding: 15px 3em 15px 3em;
+    color: var(--backgroundLight);
+    text-transform: uppercase;
     font-size: 20px;
-}
-
-nav ul > li > a:hover{
-    color: black;
-}
-
-/*
-nav ul > li > a::before{ 
-    content: '';
-    display: block;
-    height: 5px;
-    background: black;
-
-    position: absolute;
-    top: 0;
-    width: 0%;
-
     transition: all ease-in-out 150ms;
+    border-left: 2px solid var(--backgroundLight);
 }
 
-nav ul > li > a:hover::before{
-    width: 100%;
-    
+nav ul li a {
+    text-decoration: none;
+    color: var(--colorWhite);
 }
-*/
+
+nav ul li:hover {
+    color: var(--background);
+    background-color: var(--color);
+}
 
 /*footer*/
 
-html, body{
+html,
+body {
     height: 100%;
 }
 
-main{
+main {
     min-height: 100%;
 
     padding-bottom: 40px; /*footer size*/
 }
 
-main img{
-
+main img {
     width: 100%;
+    height: 20em;
     padding: 0;
     margin-top: 0;
     
+    object-fit: cover;
+    max-height: 40%;
 }
 
-footer{
-
+footer {
     background: wheat;
     position: relative;
     height: 40px;
     margin-top: -40px;
     clear: both;
-
 }
