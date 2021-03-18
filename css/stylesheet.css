@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+
+
+header{
+    background: teal;
+    height: 80px;
+}
+
+
+/*tricky fix to prevent nav from disspearing*/
+header::after{
+content: '';
+display: table;
+clear: both;
+}
+
+nav{
+
+    width: 100%;
+    margin: 0 auto;
+    float:right;
+    
+   
+}
+
+.logo{
+    float: left;
+    padding: 10px 10px;
+    height: 80px;
+}
+
+.title{
+    float: left;
+    padding: 10px 10px;
+    height: 80px;
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+
+    list-style: none; /*no dots*/
+    text-align: right;
+}
+
+nav li{
+    /*set items next to each other*/
+    display: inline-block;
+    margin-right: 5%; /*change to right if change alignment*/
+    text-align: right;
+
+    padding-top: 30px;
+
+    position: relative;
+}
+
+nav ul > li > a{
+    color: #333;
+    text-decoration: none; /*no ugly underline*/
+    text-transform: uppercase; /*so it looks nice */
+    font-size: 20px;
+}
+
+nav ul > li > a:hover{
+    color: black;
+}
+
+
+nav ul > li > a::before{ /*in link, before text*/
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 150ms;
+}
+
+nav ul > li > a:hover::before{
+    width: 100%;
+
+}
+
+
+/*footer*/
+
+html, body{
+    height: 100%;
+}
+
+main{
+    min-height: 100%;
+
+    overflow: auto;
+    padding-bottom: 40px; /*footer size*/
+}
+
+footer{
+
+    background: wheat;
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
+    clear: both;
+
+}
