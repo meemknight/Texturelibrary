@@ -62,6 +62,12 @@ nav ul li a {
     color: var(--colorWhite);
 }
 
+a {
+    font-size: inherit;
+    text-decoration: none;
+    color: var(--color);
+}
+
 nav ul li:hover {
     color: var(--background);
     background-color: var(--color);
@@ -76,7 +82,9 @@ body {
 
 main {
     min-height: 100%;
-
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
     padding-bottom: 40px; /*footer size*/
 }
 
@@ -91,11 +99,18 @@ main img {
 }
 
 footer {
+
+    border-top: 2px solid var(--backgroundWhite);
+
     background: var(--background);
     position: relative;
     height: 40px;
     margin-top: -40px;
     clear: both;
+}
+
+footer .textBox{
+    background: var(--background);
 }
 
 #mainImage{
@@ -113,37 +128,107 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
 }
 
 #mainImage ul li{
     display: inline-block;
-    padding: 25px 8em 25px 8em;
+    padding: 2em 4em 2em 3em;
     text-transform: uppercase;
     font-size: 20px;
     text-decoration: none;
     color: var(--colorWhite);
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ul{
+    list-style: none; /*no dots*/
+    text-align: center;
+
+    display: inline-block;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+
+ul li{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--colorWhite);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .textBox{
     display: inline-block;
-    padding: 2em 4em 2em 4em;
+    padding: 2em 0em 0.2em 0em;
     text-transform: uppercase;
     font-size: 2em;
     text-decoration: none;
     color: var(--colorWhite);
     text-align: center; 
-    justify-content: center;
-    align-items: center;
 
+    width: 100%;
 }
 
 .textBox h1{
     font-size: 1em;
+    width: 80%;
+    padding-left: 5%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .textBox h2{
     font-size: 0.7em;
     color: var(--colorGray);
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textBox h3{
+    font-size: 0.4em;
+    color: var(--colorGray);
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videowrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+
+.videowrapper iframe{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    height: 100%;
+    width: 100%;
 }
