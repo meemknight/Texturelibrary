@@ -20,6 +20,14 @@ body {
 header {
     background: var(--background);
     height: 50px;
+
+    position: fixed;
+    width: 100%;
+
+}
+
+main{
+    padding-top: 50px;
 }
 
 nav {
@@ -68,9 +76,21 @@ a {
     color: var(--color);
 }
 
+a:hover{
+    color: var(--background);
+}
+
+nav a:hover{
+    color: var(--colorWhite);
+}
+
 nav ul li:hover {
     color: var(--background);
     background-color: var(--color);
+}
+
+abbr{
+    text-decoration: underline;
 }
 
 /*footer*/
@@ -150,18 +170,7 @@ footer .textBox{
 
 ul{
     list-style: none; /*no dots*/
-    text-align: center;
-
-    display: inline-block;
     font-size: 20px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
 
 }
 
@@ -170,9 +179,6 @@ ul li{
     font-size: 20px;
     text-decoration: none;
     color: var(--colorWhite);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 
 }
 
