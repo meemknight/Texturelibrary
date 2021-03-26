@@ -238,3 +238,7 @@ ul li{
     height: 100%;
     width: 100%;
 }
+
+details summary{
+    list-style: none;
+  }
