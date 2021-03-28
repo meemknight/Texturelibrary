@@ -194,7 +194,7 @@ ul li{
     width: 100%;
 }
 
-.textBox h1{
+.text1{
     font-size: 1em;
     width: 80%;
     padding-left: 5%;
@@ -203,7 +203,7 @@ ul li{
     margin-right: auto;
 }
 
-.textBox h2{
+.text2{
     font-size: 0.7em;
     color: var(--colorGray);
     width: 80%;
@@ -212,7 +212,7 @@ ul li{
     margin-right: auto;
 }
 
-.textBox h3{
+.text3{
     font-size: 0.4em;
     color: var(--colorGray);
     width: 80%;
@@ -220,6 +220,7 @@ ul li{
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .videowrapper{
     position: relative;
