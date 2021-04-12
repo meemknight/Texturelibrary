@@ -195,8 +195,8 @@ ul li{
 
 .text1{
     font-size: 1em;
+    color: var(--colorGray);
     width: 80%;
-    padding-left: 5%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -370,3 +370,62 @@ hr::after{
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
+#disclaimer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 98;
+
+    opacity: 0;
+
+    background: var(--background);
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    animation: disclaimerLoad 6000ms ease-in-out;
+}
+
+#animateText{
+    animation: animateText 6000ms ease-in-out;
+
+}
+
+@keyframes animateText{
+
+    0%{
+        color: var(--colorWhite);
+
+    }
+
+    25%, 75%{
+        color: var(--color);
+    }
+  
+    100%{
+        color: var(--colorWhite);
+    } 
+}
+
+
+@keyframes disclaimerLoad{
+    0%{
+        opacity: 0;
+        bottom: 0px;
+
+    }
+
+    25%, 75%{
+        opacity: 1;
+        bottom: 20px;
+    }
+  
+
+    100%{
+        display: none;
+        opacity: 0;
+        bottom: 0px;
+
+    }
+
+}
