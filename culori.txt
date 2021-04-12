@@ -1,0 +1,12 @@
+Am ales sa imi fac siteul minimalist. Culoarea predominanta este un gri iar culoarea principala care iese in evidenta este mov.
+Textul iese in evidenta cu o culoare mai deschisa si am si o singura culoare mov pentru a scoate in evidenta butoane sau anumite zone.
+
+am 2 nuante de gri, 2 de alb si una mov
+
+--background: #222;
+--backgroundLight: #333;
+--color: purple;
+--colorWhite: #ddd;
+--colorGray: #aaa;
+
+denumirile variabilelor nu sunt foarte inspirate dar mi s-a parut ca asa ma incurc cel mai putin in ele.
