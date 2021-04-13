@@ -17,7 +17,7 @@ main{
 
 .subGrid3{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
 }
 
 
@@ -30,3 +30,11 @@ main{
 }
 
 /*#endregion*/
+
+
+/*#region overflow*/
+.overflow{
+    overflow-x: scroll;
+
+}
+/*endregion*/

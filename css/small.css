@@ -29,3 +29,13 @@ main{
 }
 
 /*#endregion*/
+
+
+/*#region overflow*/
+
+.overflow{
+    overflow-x: scroll;
+
+}
+
+/*endregion*/

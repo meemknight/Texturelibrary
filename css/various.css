@@ -202,4 +202,31 @@ footer .textBox{
 
 /*#endregion*/
 
+/*#region table*/
+
+table, th, td {
+    border: 0.2em solid var(--background);
+    padding: 1px;    
+}
+
+tr:nth-child(odd) {background-color: var(--background);}
+tr:nth-child(even) {background-color: var(--backgroundLight);}
+
+tbody tr:hover{background-color: var(--color);}
+
+
+tbody tr:nth-child(odd):hover td:first-child{background-color: var(--background);}; 
+tbody tr:nth-child(even):hover td:first-child{background-color: var(--backgroundLight);}; 
+
+
+table{
+    margin-bottom: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/*endregion*/
 
