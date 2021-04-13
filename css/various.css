@@ -209,15 +209,13 @@ table, th, td {
     padding: 1px;    
 }
 
-tr:nth-child(odd) {background-color: var(--background);}
-tr:nth-child(even) {background-color: var(--backgroundLight);}
+tbody tr:nth-child(odd) {background-color: var(--background);}
+tbody tr:nth-child(even) td:first-child{background-color: var(--backgroundLight);}
 
 tbody tr:hover{background-color: var(--color);}
 
-
-tbody tr:nth-child(odd):hover td:first-child{background-color: var(--background);}; 
-tbody tr:nth-child(even):hover td:first-child{background-color: var(--backgroundLight);}; 
-
+tbody tr:nth-child(odd) td:first-child{background-color: var(--background);};  
+tbody tr:nth-child(even) td:first-child{background-color: var(--backgroundLight);}; 
 
 table{
     margin-bottom: 1em;
