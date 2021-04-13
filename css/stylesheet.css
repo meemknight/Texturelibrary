@@ -1,6 +1,7 @@
 @import "colors.css";
 @import "font.css";
 @import "various.css";
+@import "newsCounter.css";
 
 @import "small.css"  (max-width:550px);
 @import "medium.css"  (max-width:950px) and (min-width:550px);

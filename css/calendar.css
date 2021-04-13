@@ -1,0 +1,78 @@
+/*
+from
+https://www.w3schools.com/howto/howto_css_calendar.asp
+*/
+
+.month ul, .weekdays ul, .days ul  {list-style-type: none;}
+.month body, .weekdays body, .days body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 0.2em 0.1em;
+  width: 100%;
+  background: var(--background);
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: var(--colorWhite);
+  font-size: 0.4em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: var(--colorWhite);
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: var(--colorGray);
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: var(--colorWhite);
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: var(--colorGray);
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: var(--color);
+  color: var(--colorWhite) !important
+}
