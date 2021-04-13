@@ -1,0 +1,87 @@
+/*#region grid*/
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.subGrid1{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.subGrid2{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.subGrid3{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+/*#endregion grid*/
+
+
+/*#region disclaimer*/
+
+#disclaimer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 98;
+
+    background: var(--background);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+    opacity: 0;
+
+    animation: disclaimerLoad 6000ms ease-in-out;
+
+}
+
+#animateText{
+    animation: animateText 6000ms ease-in-out;
+
+}
+
+@keyframes animateText{
+
+    0%{
+        color: var(--colorWhite);
+
+    }
+
+    25%, 75%{
+        color: var(--color);
+    }
+  
+    100%{
+        color: var(--colorWhite);
+    } 
+}
+
+
+@keyframes disclaimerLoad{
+    0%{
+        bottom: -100px;
+        opacity: 1;
+    }
+
+    25%, 75%{
+        bottom: 20px;
+        opacity: 1;
+
+    }
+  
+
+    100%{
+        
+        bottom: -100px;
+        opacity: 1;
+    }
+
+}
+
+/*#endregion*/

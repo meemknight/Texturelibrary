@@ -1,0 +1,182 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*#region icon*/
+.fas, .fab {
+color: var(--color);
+}
+/*#endregion*/
+
+/*#region topButton*/
+
+
+#topButton{
+    display: none;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 2em;
+    left: 2em;
+    z-index: 99; /* Make sure it does not overlap */
+    border: solid var(--color); /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: (0,0,0,0); /* Set a background color */
+    color: var(--color); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 0.02em 0.3em 0.1em; /* Some padding */
+    box-shadow: 0em 0em 0.6em 0.4em var(--background);
+    font-size: 2em; /* Increase font size */
+    border-radius: 1em;
+    text-align: center;
+    opacity: 0.5;
+
+    transition: ease-in-out 300ms;
+}
+
+#topButton a{
+    color: var(--color);
+}
+
+#topButton:hover{
+    background-color: var(--background);
+    opacity: 1;
+}
+/*#endregion*/
+
+/*#region tooltip*/
+
+
+
+.tooltip .tooltiptext {
+    transition: ease-in-out 500ms;
+    visibility: hidden;
+    width: 120px;
+    background-color:var(--background);
+    color: var(--colorWhite);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    font-size: 1em;
+    opacity: 0.5;
+  }
+  
+  .tooltip .tooltiptext {
+    transition: ease-in-out 500ms;
+
+    top: -5px;
+    left: 110%;
+  }
+
+  .tooltip .tooltiptext::after {
+    transition: ease-in-out 500ms;
+
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent var(--background) transparent transparent;
+  }
+
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+/*#endregion*/
+
+/*#region hr*/
+
+hr{
+    
+    background-color: var(--backgroundLight);
+    color: var(--backgroundLight);
+    
+    box-shadow: 0em 0em 0.6em 0.4em var(--background);
+    background-image: radial-gradient(rgba(255,255,255,1), rgba(0,0,0,0));
+    
+    
+    border: solid var(--backgroundLight);
+    border-top:0.5em dashed var(--background);
+    
+}
+
+hr::after{
+  
+    /*
+    content: '';
+    display: inline-block;
+    position: relative;
+    background:white url("../resources/icon.png") no-repeat;
+    */
+
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url("../resources/icon.png") no-repeat 0px 0px fixed;
+    top: 10px;
+    right: 5px;
+    display: inline-block;
+}
+
+/*#endregion*/
+
+/*#region text*/
+
+.text1{
+    font-size: 1em;
+    color: var(--colorGray);
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text2{
+    font-size: 0.7em;
+    color: var(--colorGray);
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text3{
+    font-size: 0.4em;
+    color: var(--colorGray);
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#endregion*/
+
+/*#region footer*/
+footer {
+
+    border-top: 2px solid var(--backgroundWhite);
+
+    background: var(--background);
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
+    clear: both;
+}
+
+footer .textBox{
+    background: var(--background);
+}
+
+/*#endregion*/
+
+

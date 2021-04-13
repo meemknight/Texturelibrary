@@ -1,0 +1,32 @@
+/*#region grid*/
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.subGrid1{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.subGrid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subGrid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/*#endregion grid*/
+
+/*#region disclaimer*/
+
+#disclaimer{
+    display: none;
+}
+
+/*#endregion*/
