@@ -64,7 +64,19 @@ nav ul li a {
     100% {
       transform: scaleY(1)
     }
-  }
+}
+
+@keyframes growRight {
+    0% {
+      transform: scaleX(0)
+    }
+    80% {
+      transform: scaleX(1.1)
+    }
+    100% {
+      transform: scaleX(1)
+    }
+}
 
 //for sub menues
 nav ul li ul{
@@ -80,7 +92,7 @@ nav ul li ul{
 nav ul li:hover ul{
     display: block;
     
-    top: 380%;
+    top: 100%;
     width: 100%;
     left: 0%;
 
@@ -118,8 +130,6 @@ nav ul li:hover ul{
         display: list-item;
         color: var(--colorWhite);
     
-      
-
     }
 
 }
@@ -132,9 +142,18 @@ nav ul li:hover ul{
    display: none;
 }
 
+.navCheckToShow{
+    animation: growRight 300ms ease-in-out forwards;
+}
 
 #menuButton:not(:checked) ~ .navCheckToShow{
-  display: none;
-}
+    display: none;
+    width:  0%;
+  }
+
+  #menuButton:checked ~ .navCheckToShow{
+    width: 100%;
+  }
+  
 
 //#menuButton:checked ~
