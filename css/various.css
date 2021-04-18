@@ -50,8 +50,6 @@ color: var(--color);
 
 /*#region tooltip*/
 
-
-
 .tooltip .tooltiptext {
     transition: ease-in-out 500ms;
     visibility: hidden;
@@ -176,7 +174,7 @@ hr:after {
 }
 
 .text3{
-    font-size: 0.4em;
+    font-size: 0.5em;
     color: var(--colorGray);
     width: 80%;
     text-align: center;

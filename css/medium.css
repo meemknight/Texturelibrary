@@ -38,3 +38,35 @@ main{
 
 }
 /*endregion*/
+
+
+/*#region text*/
+
+.text1{
+    font-size: 0.9em;
+    color: var(--colorGray);
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text2{
+    font-size: 0.6em;
+    color: var(--colorGray);
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text3{
+    font-size: 0.4em;
+    color: var(--colorGray);
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#endregion*/

@@ -1,0 +1,133 @@
+@import "colors.css";
+
+#homeButton{
+    .fas, .fab {
+        color: var(--colorWhite);
+        }
+
+    &::after{
+        content: " Home";
+    }
+}
+
+.title{
+    padding-right: 1em;
+
+    &::after{
+        content:"Texture library"
+
+    }
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+nav a:hover{
+    color: var(--colorWhite);
+}
+
+nav ul li:hover {
+    color: var(--background);
+    background-color: var(--color);
+    font-size: 1.1em;
+}
+
+nav ul {
+    background-position-y: 0%;
+    list-style: none; /*no dots*/
+    text-align: left;
+
+}
+
+nav ul li {
+    background-position-y: 0%;
+    display: inline-block;
+    padding: 15px 3em 15px 3em;
+    color: var(--backgroundLight);
+    text-transform: uppercase;
+    font-size: 1em;
+    transition: all ease-in-out 450ms;
+    border-left: 2px solid var(--backgroundLight);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--colorWhite);
+}
+
+@keyframes growDown {
+    0% {
+      transform: scaleY(0)
+    }
+    80% {
+      transform: scaleY(1.1)
+    }
+    100% {
+      transform: scaleY(1)
+    }
+  }
+
+//for sub menues
+nav ul li ul{
+    display: none;
+    top: 100%;
+    position: absolute;
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+    min-width: 15em;
+
+}
+
+nav ul li:hover ul{
+    display: block;
+    
+
+    li{
+        
+        background-color: var(--background);
+        &:hover{
+            background-color: var(--background);
+            
+            transition: 300ms ease-in-out;
+
+            &::before{
+                content: "";
+                background: linear-gradient(90deg, var(--backgroundLight), var(--background));
+                position: absolute;
+                height: 2.2em;
+                width: 1em;
+                left: 0em;
+                
+            }
+
+            &::after{
+                content: "";
+                background: linear-gradient(90deg, var(--background), var(--backgroundLight));
+                position: absolute;
+                height: 2em;
+                width: 1em;
+                right: 0em;
+                
+            }
+        }
+    
+        display: list-item;
+        color: var(--colorWhite);
+    
+      
+
+    }
+
+}
+
+
+#menuButton{
+    display: none;
+}
+
+ #menuButtonLable{
+     display: none;
+ }

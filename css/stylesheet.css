@@ -3,6 +3,9 @@
 @import "various.css";
 @import "newsCounter.css";
 
+@import "navBarSmall.css"  (max-width:950px);
+@import "navBarBig.css"  (min-width:950px);
+
 @import "small.css"  (max-width:550px);
 @import "medium.css"  (max-width:950px) and (min-width:550px);
 @import "big.css"  (min-width:950px);
@@ -28,11 +31,6 @@ main{
     padding-top: 50px;
 }
 
-nav {
-    width: 100%;
-    margin: 0 auto;
-    float: right;
-}
 
 .logo {
     float: left;
@@ -48,26 +46,6 @@ nav {
 
 }
 
-nav ul {
-    list-style: none; /*no dots*/
-    text-align: right;
-}
-
-nav ul li {
-    display: inline-block;
-    padding: 15px 3em 15px 3em;
-    color: var(--backgroundLight);
-    text-transform: uppercase;
-    font-size: 1em;
-    transition: all ease-in-out 150ms;
-    border-left: 2px solid var(--backgroundLight);
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: var(--colorWhite);
-}
-
 a {
     font-size: inherit;
     text-decoration: none;
@@ -78,14 +56,6 @@ a:hover{
     color: var(--background);
 }
 
-nav a:hover{
-    color: var(--colorWhite);
-}
-
-nav ul li:hover {
-    color: var(--background);
-    background-color: var(--color);
-}
 
 abbr{
     text-decoration: underline;
@@ -176,7 +146,7 @@ ul li{
     width: 100%;
 }
 
-
+/*#region video*/
 .videowrapper{
     position: relative;
     padding-bottom: 56.25%;
@@ -195,8 +165,46 @@ ul li{
     width: 100%;
 }
 
+.tabsVideo{
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 1em;
+
+    display: flexbox;
+}
+
+.tabsVideo a{
+    padding: 0.2em;
+    border: 0.1em solid var(--background);
+    border-top: 0.5em solid var(--background); 
+    border-top: 0.5em solid var(--background); 
+    border-bottom-left-radius: 0.8em;
+    border-bottom-right-radius: 0.8em;
+
+    background: linear-gradient(var(--background), 20%, var(--backgroundLight));
+    box-shadow: 0em 0em 0.1em 0.1em var(--background);
+    text-align: center;
+    align-self: center;
+    width: 8em;
+
+    transition: 100ms ease-in-out;
+
+}
+
+.tabsVideo a:hover{
+
+    background: var(--backgroundLight);
+    color: var(--color);
+}
+
+
+
+/*#endregion*/
+
+
 details, summary{
     list-style: none;
     list-style-type: none;
   }
+
 

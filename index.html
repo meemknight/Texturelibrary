@@ -29,13 +29,25 @@
         <header>
             <!--6-->
             <nav>
-                <img src="resources/icon.png" alt="logo" class="logo" />
-                <h1 class="title">Texture library</h1>
-
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Galery</a></li>
+                <img src="resources/icon.png" alt="logo" class="logo" id="logoImage" />
+                <h1 class="title"></h1>
+                
+                
+                <ul class = "Navelements">
+                    <input type="checkbox" id="menuButton"/>
+                    <label for="menuButton" id="menuButtonLable"><i class="fas fa-bars"></i></label>
+                    
+                    <li class = "navCheckToShow"><a href="#" id = "homeButton"><i class="fas fa-home"></i></a></li>
+                    <li class = "navCheckToShow"><a href="#">About</a></li>
+                    <li class = "navCheckToShow">
+                        <a href="#">Galery</a>
+                        <ul>
+                            <li>All</li>
+                            <li>Wood</li>
+                            <li>Metal</li>
+                            <li>Stone</li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -139,7 +151,7 @@
                     </section>
                     <section class="textBox">
                         <!--8-->
-                        <h1>Section2</h1>
+                        <h1></h1>
                         <br>
 
                         <div class ="text2">
@@ -242,8 +254,13 @@
 
                 
                 <div class= "videowrapper">
-                    <iframe src="https://www.youtube.com/embed/jCFBlG-KUEs?autoplay=1&controls=0&showinfo=0&mute=1&loop=1&start=15" frameborder="0" 
+                    <iframe name = "mainVideo" src="https://www.youtube.com/embed/jCFBlG-KUEs?autoplay=1&controls=0&showinfo=0&mute=1&loop=1&start=15&hd=1" frameborder="0" 
                     allow="encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                </div>
+                <div class="tabsVideo">
+                    <a href="https://www.youtube.com/embed/jCFBlG-KUEs?autoplay=1&controls=0&showinfo=0&mute=1&loop=1&start=15&hd=1" target="mainVideo">PBR demo</a>
+                    <a href="https://www.youtube.com/embed/J9CExYF8yrU?autoplay=1&controls=0&showinfo=0&mute=1&loop=1&hd=1" target="mainVideo" >PBR demo 2</a>
+                    <a href="https://www.youtube.com/embed/wGYc7P_6n1o?autoplay=1&controls=0&showinfo=0&mute=1&loop=1&start=15&hd=1" target="mainVideo" >PBR materials</a>
                 </div>
                 
                 <br>

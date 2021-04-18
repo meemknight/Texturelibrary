@@ -32,10 +32,57 @@ main{
 
 
 /*#region overflow*/
-
 .overflow{
     overflow-x: scroll;
 
 }
+/*#endregion*/
 
-/*endregion*/
+
+/*#region text*/
+
+.text1{
+    font-size: 0.8em;
+    color: var(--colorGray);
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text2{
+    font-size: 0.5em;
+    color: var(--colorGray);
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text3{
+    font-size: 0.3em;
+    color: var(--colorGray);
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#endregion*/
+
+/*#region tooltip*/
+
+.tooltip .tooltiptext {
+    transition: none;
+   
+  }
+  
+  .tooltip .tooltiptext {
+    transition: none;
+  }
+
+  .tooltip .tooltiptext::after {
+    transition: none;
+  }
+
+/*#endregion*/
