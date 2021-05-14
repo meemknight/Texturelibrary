@@ -20,6 +20,8 @@ main{
     grid-template-rows: 2fr 1fr;
 }
 
+/*todo remake grid*/
+
 /*#endregion grid*/
 
 
@@ -72,12 +74,9 @@ main{
     25%, 75%{
         bottom: 20px;
         opacity: 1;
-
     }
   
-
     100%{
-        
         bottom: -100px;
         opacity: 1;
     }
