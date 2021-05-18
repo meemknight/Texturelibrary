@@ -10,7 +10,19 @@ app.get("/page/:id", (req, res) =>{
 
     console.log("pagina: " + req.params.id);
 
-    res.render("pagini/" + req.params.id);
+    //res.render("pagini/" + req.params.id);
+
+    res.render("pagini/" + req.params.id, (err, r)=>
+    {
+        if(err)
+        {
+            res.status(404).render("pagini/notFound")
+        }else
+        {
+            res.send(r);
+        }
+
+    })
 
 })
 
@@ -24,7 +36,7 @@ app.get(["/", "index.html", "index"], (req, res) => {
 
 
 app.get((req, res) =>{
-    res.status.send("eroare 404");
+    res.status(404).render("pagini/notFound")
 })
 
 app.set('view engine', 'ejs');

@@ -198,7 +198,9 @@ ul li{
     color: var(--color);
 }
 
-
+.color{
+    color: var(--color);
+}
 
 /*#endregion*/
 
