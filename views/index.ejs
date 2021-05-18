@@ -1,61 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--1,2,3-->
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="Textures, PBRTextures, Materials" />
-        <meta name="author" content="Luta Vlad" />
-        <meta
-            name="description"
-            content="Free Phisically based textures for everyone!"
-        />
-        <title>Texture library</title>
 
-        <!--4-->
-        <link rel="shortcut icon" type="image/gif" href="resources/icon.gif" />
-        <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <%- include ("fragmente/meta") -%>
 
-        <script src="https://kit.fontawesome.com/a317602f4a.js" crossorigin="anonymous"></script>
-    </head>
-
+    <script src="https://kit.fontawesome.com/a317602f4a.js" crossorigin="anonymous"></script>
 
     <!--5-->
     <body>
        
         <a name="top"></a>
 
-        <header>
-            <!--6-->
-            <nav>
-                <img src="resources/icon.png" alt="logo" class="logo" id="logoImage" />
-                <h1 class="title"></h1>
-                
-                
-                <ul class = "Navelements">
-                    <input type="checkbox" id="menuButton"/>
-                    <label for="menuButton" id="menuButtonLable"><i class="fas fa-bars"></i></label>
-                    
-                    <div class = "navCheckToShow">
-
-                        <li class><a href="#" id = "homeButton"><i class="fas fa-home"></i></a></li>
-                        <li class><a href="#">About</a></li>
-                        <li class>
-                            <a href="#">Galery</a>
-                            <ul>
-                                <li>All</li>
-                                <li>Wood</li>
-                                <li>Metal</li>
-                                <li>Stone</li>
-                            </ul>
-                        </li>
-
-                    </div>
-
-                </ul>
-            </nav>
-        </header>
+        <%- include ("fragmente/navbar") -%>
 
         <main class = "mainGrid">
 
@@ -313,46 +268,8 @@
         </main>
 
         
-
-        <!--13 14-->
-        <footer>
-            
-            <div class="tooltip">
-                <div id ="topButton">
-                    <span class="tooltiptext">top of page</span>
-                    <a zef="#top">&#5123;</a>
-                </div>
-            </div>
-
-            <section class="textBox">
-                <ul>
-                     
-
-                    <li>
-                        <div class ="text3">
-                            Site source can be found <a href="https://github.com/meemknight/Texturelibrary">here</a>. 
-                        </div>
-                    </li>
-                    <li>
-                        <div class ="text3">
-                        <address>
-                            Written by <a href="mailto:vladalex420@gmail.com">VladAlex</a>.<br>
-                            
-                            <a href="tel:07000000">Phone contact</a>
-                        </address>
-                    </div>
-                    </li>
-                
-                    <li>
-                        <div class ="text3">
-                            <small>&copy; Luta Vlad  <time datetime="2021">2021</time> </small>
-                        </div>
-                    </li>
-
-                </ul>
-               
-            </section>
-        </footer>
+        <%- include ("fragmente/navbar") -%>
+       
 
     </body>
 

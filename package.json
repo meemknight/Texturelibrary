@@ -1,0 +1,26 @@
+{
+  "name": "texturelib",
+  "version": "1.0.0",
+  "description": "\"# Texturelibrary\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meemknight/Texturelibrary.git"
+  },
+  "keywords": [
+    "texture"
+  ],
+  "author": "Luta Vlad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meemknight/Texturelibrary/issues"
+  },
+  "homepage": "https://github.com/meemknight/Texturelibrary#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
