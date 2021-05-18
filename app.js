@@ -5,15 +5,25 @@ var app = express()
 
 app.use(express.static(path.join(__dirname,"public")))
 
-app.use("/", (req, res) => {
-    //req cererea
-    //res respons
-    res.render("index") 
 
-    console.log("test")
+app.get("/pagina/:id", (req, res) =>{
+
+    console.log("pagina: " + req.params.id);
+
+    res.render("pagini/" + req.params.id);
+
 })
 
-app.use((req, res) =>{
+app.get(["/", "index.html", "index"], (req, res) => {
+    //req cererea
+    //res respons
+    res.render("pagini/index") 
+
+    console.log("index render")
+})
+
+
+app.get((req, res) =>{
     res.status.send("eroare 404");
 })
 
