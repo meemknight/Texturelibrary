@@ -43,8 +43,6 @@
 
 /*#region text*/
 
-/*todo look up em*/
-
 .text1{
     font-size: 0.8em;
     color: var(--colorGray);
@@ -54,7 +52,7 @@
     margin-right: auto;
 }
 
-.text2{
+.text2, h2{
     font-size: 0.5em;
     color: var(--colorGray);
     width: 80%;
@@ -63,7 +61,7 @@
     margin-right: auto;
 }
 
-.text3{
+.text3, h3{
     font-size: 0.3em;
     color: var(--colorGray);
     width: 80%;
