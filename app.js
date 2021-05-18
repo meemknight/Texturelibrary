@@ -6,7 +6,7 @@ var app = express()
 app.use(express.static(path.join(__dirname,"public")))
 
 
-app.get("/pagina/:id", (req, res) =>{
+app.get("/page/:id", (req, res) =>{
 
     console.log("pagina: " + req.params.id);
 
