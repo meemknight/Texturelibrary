@@ -1,38 +1,15 @@
 /*#region grid*/
 
-/*
-main{
-    display: grid;
-    grid-template-columns: 1fr;
-    
-}
-
-.subGrid1{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-}
-
-.subGrid2{
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-}
-
-.subGrid3{
-    display: grid;
-    grid-template-rows: 2fr 1fr;
-}
-*/
-
 .mainGrid{
     display: grid;
     grid-template-columns: repeat(4, 1f);
-
     grid-template-areas: 
     "cell1 cell1 cell1 cell1"
     "cell3 cell2 cell2 cell4"
     "cell5 cell2 cell2 cell4"
     "cell5 cell6 cell6 cell7"
     "cell8 cell8 cell8 cell8";
+
 
 }
 
