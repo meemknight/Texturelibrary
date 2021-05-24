@@ -1,0 +1,322 @@
+{
+
+    "images":[
+
+        {
+            "cale_imagine":"Steel_color_extraction_0_BaseColor.png",
+            "titlu":"Steel_color_extraction_0_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"ConcreteSmooth_color_extraction_1_BaseColor.png",
+            "titlu":"ConcreteSmooth_color_extraction_1_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"ciment1_BaseColor.png",
+            "titlu":"ciment1_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"CliffRock_color_extraction_1_BaseColor.png",
+            "titlu":"CliffRock_color_extraction_1_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"4"
+            },
+            
+            {
+            "cale_imagine":"ConcreteSmooth_color_extraction_8_BaseColor.png",
+            "titlu":"ConcreteSmooth_color_extraction_8_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"leather_BaseColor.png",
+            "titlu":"leather_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"WoodAsh_color_extraction_9_BaseColor.png",
+            "titlu":"WoodAsh_color_extraction_9_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"1"
+            },
+            
+            {
+            "cale_imagine":"Steel_color_extraction_5_BaseColor.png",
+            "titlu":"Steel_color_extraction_5_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"CliffRock_color_extraction_9_BaseColor.png",
+            "titlu":"CliffRock_color_extraction_9_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"4"
+            },
+            
+            {
+            "cale_imagine":"marble1_BaseColor.png",
+            "titlu":"marble1_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"4"
+            },
+            
+            {
+            "cale_imagine":"Steel_color_extraction_1_BaseColor.png",
+            "titlu":"Steel_color_extraction_1_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"CliffRock_color_extraction_6_BaseColor.png",
+            "titlu":"CliffRock_color_extraction_6_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"rust_BaseColor.png",
+            "titlu":"rust_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"1"
+            },
+            
+            {
+            "cale_imagine":"ConcreteSmooth_color_extraction_0_BaseColor.png",
+            "titlu":"ConcreteSmooth_color_extraction_0_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"ConcreteSmooth_color_extraction_4_BaseColor.png",
+            "titlu":"ConcreteSmooth_color_extraction_4_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"CliffRock_color_extraction_8_BaseColor.png",
+            "titlu":"CliffRock_color_extraction_8_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"WoodAsh_color_extraction_2_BaseColor.png",
+            "titlu":"WoodAsh_color_extraction_2_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"4"
+            },
+            
+            {
+            "cale_imagine":"Steel_color_extraction_9_BaseColor.png",
+            "titlu":"Steel_color_extraction_9_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"plastic_BaseColor.png",
+            "titlu":"plastic_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"Steel_color_extraction_7_BaseColor.png",
+            "titlu":"Steel_color_extraction_7_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"1"
+            },
+            
+            {
+            "cale_imagine":"Steel_color_extraction_6_BaseColor.png",
+            "titlu":"Steel_color_extraction_6_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"marble2_BaseColor.png",
+            "titlu":"marble2_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"1"
+            },
+            
+            {
+            "cale_imagine":"Steel_color_extraction_8_BaseColor.png",
+            "titlu":"Steel_color_extraction_8_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"4"
+            },
+            
+            {
+            "cale_imagine":"WoodAsh_color_extraction_5_BaseColor.png",
+            "titlu":"WoodAsh_color_extraction_5_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"Steel_color_extraction_3_BaseColor.png",
+            "titlu":"Steel_color_extraction_3_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"1"
+            },
+            
+            {
+            "cale_imagine":"WoodAsh_color_extraction_1_BaseColor.png",
+            "titlu":"WoodAsh_color_extraction_1_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"WoodAsh_color_extraction_6_BaseColor.png",
+            "titlu":"WoodAsh_color_extraction_6_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"WoodAsh_color_extraction_8_BaseColor.png",
+            "titlu":"WoodAsh_color_extraction_8_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"1"
+            },
+            
+            {
+            "cale_imagine":"denim_BaseColor.png",
+            "titlu":"denim_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"4"
+            },
+            
+            {
+            "cale_imagine":"CliffRock_color_extraction_7_BaseColor.png",
+            "titlu":"CliffRock_color_extraction_7_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"1"
+            },
+            
+            {
+            "cale_imagine":"Steel_color_extraction_2_BaseColor.png",
+            "titlu":"Steel_color_extraction_2_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"1"
+            },
+            
+            {
+            "cale_imagine":"ConcreteSmooth_color_extraction_9_BaseColor.png",
+            "titlu":"ConcreteSmooth_color_extraction_9_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"4"
+            },
+            
+            {
+            "cale_imagine":"leather2_BaseColor.png",
+            "titlu":"leather2_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"Steel_color_extraction_4_BaseColor.png",
+            "titlu":"Steel_color_extraction_4_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"4"
+            },
+            
+            {
+            "cale_imagine":"ConcreteSmooth_color_extraction_6_BaseColor.png",
+            "titlu":"ConcreteSmooth_color_extraction_6_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"ConcreteSmooth_color_extraction_5_BaseColor.png",
+            "titlu":"ConcreteSmooth_color_extraction_5_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"CliffRock_color_extraction_3_BaseColor.png",
+            "titlu":"CliffRock_color_extraction_3_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"WoodAsh_color_extraction_3_BaseColor.png",
+            "titlu":"WoodAsh_color_extraction_3_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"marble3_BaseColor.png",
+            "titlu":"marble3_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"WoodAsh_color_extraction_4_BaseColor.png",
+            "titlu":"WoodAsh_color_extraction_4_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"3"
+            },
+            
+            {
+            "cale_imagine":"ConcreteSmooth_color_extraction_2_BaseColor.png",
+            "titlu":"ConcreteSmooth_color_extraction_2_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"WoodAsh_color_extraction_7_BaseColor.png",
+            "titlu":"WoodAsh_color_extraction_7_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"2"
+            },
+            
+            {
+            "cale_imagine":"ConcreteSmooth_color_extraction_7_BaseColor.png",
+            "titlu":"ConcreteSmooth_color_extraction_7_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"1"
+            },
+            
+            {
+            "cale_imagine":"ConcreteSmooth_color_extraction_3_BaseColor.png",
+            "titlu":"ConcreteSmooth_color_extraction_3_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"4"
+            },
+            
+            {
+            "cale_imagine":"WoodAsh_color_extraction_0_BaseColor.png",
+            "titlu":"WoodAsh_color_extraction_0_BaseColor",
+            "descriere":"desc",
+            "sfert_ora":"1"
+            }
+
+    ]
+
+}

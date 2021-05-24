@@ -26,6 +26,28 @@ app.get("/page/:id", (req, res) =>{
 
 })
 
+app.get("/galery", (req, res) =>
+{
+    rootPath = "/resources/mat";
+
+    data = [
+        "/resources/mat/ciment1_BaseColor.png",
+        "/resources/testImage.jpg",
+        "/resources/testImage.jpg",
+        "/resources/testImage.jpg",
+        "/resources/testImage.jpg",
+        "/resources/testImage.jpg",
+        "/resources/testImage.jpg",
+        "/resources/testImage.jpg",
+        "/resources/testImage.jpg",
+        "/resources/testImage.jpg",
+    ]
+    
+    res.render("pagini/galery", {galery: data}) 
+
+    console.log("galery render")
+})
+
 app.get(["/", "index.html", "index"], (req, res) => {
     //req cererea
     //res respons

@@ -210,3 +210,54 @@ details, summary{
     list-style-type: none;
   }
 
+#printLogo img{
+    display: none;
+}
+
+#watermark{
+    display: none;
+}
+
+@media print {
+    
+    #watermark{
+        position:absolute;
+        z-index:1;
+
+        display: block;
+        width: 4cm;
+        height: 1cm;
+        right: 2px;
+        bottom: 30px;
+        text-align: center;
+        font-weight: bold;
+        opacity: 0.4;
+        border: 3px solid var(--background);
+
+    }
+
+    img{display: none;}
+    .videowrapper{display: none;}
+    a{color: var(--colorGray);}
+
+    #printLogo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .tooltip{
+        display: none;
+    }
+
+    #printLogo img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 70%;
+        height: auto;
+
+        border: 4px inset var(--background);
+    }
+}
