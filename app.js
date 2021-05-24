@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const fs = require('fs')
 
 var app = express()
 
@@ -28,22 +29,20 @@ app.get("/page/:id", (req, res) =>{
 
 app.get("/galery", (req, res) =>
 {
-    rootPath = "/resources/mat";
+    const textFisier=fs.readFileSync(path.join(__dirname, "/public/resources/img.json"));
+	const jsi=JSON.parse(textFisier); //am transformat in obiect
+    //console.log(jsi["images"][0]["titlu"]);
 
-    data = [
-        "/resources/mat/ciment1_BaseColor.png",
-        "/resources/testImage.jpg",
-        "/resources/testImage.jpg",
-        "/resources/testImage.jpg",
-        "/resources/testImage.jpg",
-        "/resources/testImage.jpg",
-        "/resources/testImage.jpg",
-        "/resources/testImage.jpg",
-        "/resources/testImage.jpg",
-        "/resources/testImage.jpg",
-    ]
+    let imgs = [[],[],[],[]];
+
+    rootPath = "/resources/mat/";
+
+    jsi["images"].forEach(i => {
+        imgs[i.sfert_ora-1].push(rootPath + i.cale_imagine);
+    });
+
     
-    res.render("pagini/galery", {galery: data}) 
+    res.render("pagini/galery", {galery: imgs[0]}) 
 
     console.log("galery render")
 })
