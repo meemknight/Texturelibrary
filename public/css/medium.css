@@ -72,3 +72,57 @@
 }
 
 /*#endregion*/
+
+/*#region static galery*/
+
+.staticGaleryWrapper{
+
+    padding-top: 2em;
+
+    display: block;   
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+
+}
+
+.staticGaleryGrid{
+
+    padding: 0px;
+    margin: 0px;
+
+    display: grid;
+    
+    grid-gap: 1em;
+    grid-column-gap: 0em;
+
+    grid-template-areas: 
+    "image1 image2"
+    "image3 image10"
+    "image4 image5"
+    "image6 image7"
+    "image8 image9";
+}
+
+.staticGaleryGrid img {
+    padding: 0px;
+    margin: 0px;
+
+    display: block;   
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#image1{ grid-area: image1; }
+#image2{ grid-area: image2; }
+#image3{ grid-area: image3; }
+#image4{ grid-area: image4; }
+#image5{ grid-area: image5; }
+#image6{ grid-area: image6; }
+#image7{ grid-area: image7; }
+#image8{ grid-area: image8; }
+#image9{ grid-area: image9; }
+#image10{ grid-area: image10; }
+
+/*#endregion*/
