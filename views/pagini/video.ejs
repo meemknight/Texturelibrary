@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include ("../fragmente/meta") -%>
+
+    <body>
+       
+        <a name="top"></a>
+        
+        <%- include ("../fragmente/navbar") -%>
+
+        <main>
+
+            <h1>Video</h1>
+            
+            <!--https://www.youtube.com/watch?v=-8nf1XAwZYg&ab_channel=GetLearntw%2FChunck-->
+
+            <video controls id="video" poster="/resources/im1.png" style="width: 900px;">
+                <source src="/resources/pbr.mp4">
+                <source src="/resources/pbr.mov">
+
+                <track
+                    default
+                    src="/resources/subtitle/english.vtt"
+                    srclang = "en"
+                    kind = "subtitles"
+                    label = "English"
+                ></track>
+                <track
+                    default
+                    src="/resources/subtitle/romanian.vtt"
+                    srclang = "ro"
+                    kind = "subtitles"
+                    label = "Romanian"
+                >
+
+
+            </video>
+
+        </main>
+
+
+        <%- include ("../fragmente/footer") -%>
+
+    </body>
+
+</html>

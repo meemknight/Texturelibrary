@@ -1,4 +1,4 @@
-@import url(c:\Users\Vlad\Desktop\repos\_web\proiect\css\colors.css);
+@import url(c:\Users\Vlad\Desktop\repos\_web\proiect\public\css\colors.css);
 #homeButton .fas, #homeButton .fab {
   color: var(--colorWhite);
 }

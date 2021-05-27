@@ -204,6 +204,15 @@ ul li{
 
 /*#endregion*/
 
+/*#region video2*/
+
+video::cue {
+    opacity: 0.3;
+    color: var(--background);
+    background: var(--colorWhite);
+}
+
+/*#endregion*/
 
 details, summary{
     list-style: none;
@@ -218,10 +227,24 @@ details, summary{
     display: none;
 }
 
+
+/*#region print*/
+
 @media print {
     
+    @page:left{
+
+		margin-left:3cm;
+		margin-right:1cm;
+	}
+	@page:right{
+
+		margin-right:3cm;
+		margin-left:1cm;
+	}
+
     #watermark{
-        position:absolute;
+        position:fixed;
         z-index:1;
 
         display: block;
@@ -261,3 +284,5 @@ details, summary{
         border: 4px inset var(--background);
     }
 }
+
+/*#endregion*/
