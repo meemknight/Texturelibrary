@@ -6,6 +6,10 @@ var app = express()
 
 app.use(express.static(path.join(__dirname,"public")))
 
+app.get("/img.json", (req, res) =>{
+    console.log("pagina forbidden");
+    res.status(403).render("pagini/forbidden");
+})
 
 app.get("/page/:id", (req, res) =>{
 
@@ -27,6 +31,7 @@ app.get("/page/:id", (req, res) =>{
 
 })
 
+
 //https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 function shuffle(array) {
     for (var i = array.length - 1; i > 0; i--) {
@@ -39,7 +44,7 @@ function shuffle(array) {
 
 app.get("/galery", (req, res) =>
 {
-    const textFisier=fs.readFileSync(path.join(__dirname, "/public/resources/img.json"));
+    const textFisier=fs.readFileSync(path.join(__dirname, "/img.json"));
 	const jsi=JSON.parse(textFisier); //am transformat in obiect
     //console.log(jsi["images"][0]["titlu"]);
 
@@ -96,6 +101,7 @@ app.get(["/", "index.html", "index"], (req, res) => {
 
 
 app.get((req, res) =>{
+    console.log("not found render")
     res.status(404).render("pagini/notFound")
 })
 
