@@ -1,7 +1,22 @@
 :root {
-    --background: #222;
-    --backgroundLight: #333;
-    --color: purple;
-    --colorWhite: #ddd;
-    --colorGray: #aaa;
   }
+
+.lightTheme{
+
+  --background: #999;
+  --backgroundLight: #aaa;
+  --color: purple;
+  --colorWhite: #333;
+  --colorGray: #222;
+
+} 
+
+.darkTheme{
+
+  --background: #222;
+  --backgroundLight: #333;
+  --color: purple;
+  --colorWhite: #ddd;
+  --colorGray: #aaa;
+
+}

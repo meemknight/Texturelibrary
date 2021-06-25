@@ -68,7 +68,7 @@ app.get("/galery", (req, res) =>
     console.log("galery render")
 })
 
-app.get(["/", "index.html", "index"], (req, res) => {
+app.get(["/", "/index.html", "/index"], (req, res) => {
     //req cererea
     //res respons
 
@@ -94,7 +94,7 @@ app.get(["/", "index.html", "index"], (req, res) => {
         galery[i] = p + galery[i]
     }
 
-    res.render("pagini/index", {liveGalery: galery[0]})
+    res.render("pagini/index", {liveGalery: galery[2]})
 
     console.log("index render")
 })

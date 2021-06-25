@@ -239,9 +239,9 @@ details, summary{
 	}
 	@page:right{
 
-		margin-right:3cm;
 		margin-left:1cm;
-	}
+		margin-right:3cm;
+    }
 
     #watermark{
         position:fixed;
