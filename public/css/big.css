@@ -30,7 +30,7 @@
 
 #disclaimer{
     position: fixed;
-    bottom: 0px;
+    bottom: -400px;
     width: 100%;
     z-index: 98;
 
@@ -38,7 +38,7 @@
     padding-top: 2em;
     padding-bottom: 2em;
     
-    opacity: 0;
+    opacity: 1;
 
     animation: disclaimerLoad 6000ms ease-in-out;
 
@@ -68,7 +68,7 @@
 
 @keyframes disclaimerLoad{
     0%{
-        bottom: -100px;
+        bottom: -400px;
         opacity: 1;
     }
 
@@ -78,7 +78,7 @@
     }
   
     100%{
-        bottom: -100px;
+        bottom: -400px;
         opacity: 1;
     }
 
